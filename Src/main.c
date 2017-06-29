@@ -97,7 +97,7 @@ HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4);
 
   /* USER CODE BEGIN 3 */
 	
-		
+		TIM4->CCR1 = 10000;
 		
 		/*for(int i = 0; i< 1000; i++)
 {
